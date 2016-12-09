@@ -211,9 +211,10 @@ int main()
 	//    As the name implies, these are identity matrices with two rows swapped.
 	std::cout << "Swap matrix:\n" << Matrix3D(1, 0, 0, 0, 0, 1, 0, 1, 0);
 	//    Swaps the second and third row of a matrix.
-	// 3) Addition matrices
+	// 3) Row addition matrices
 	//    Less obviously, these matrices add a scalar multiple of one row to another row.
 	//    Specifically, when E(r, s) = t, it adds t*A.row(s) to A.row(r)
+	//    Note that these are also a type of shear matrix.
 	std::cout << "Addition matrix:\n" << Matrix3D(1, 1, 0, 0, 1, 0, 0, 0, 1);
 
 	// Inverse
