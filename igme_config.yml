@@ -1,0 +1,16 @@
+series: Matrix Mathematics
+title: Matrix terminology
+author:
+  name: Andrew Litfin
+  email:
+  github: astrodude80
+description: This tutorial explains some basic matrix terminology.
+language: C++
+tags:
+  - Math
+extra_resources:
+  - title: The Wikipedia article on matrices.
+    link: https://en.wikipedia.org/wiki/Matrix_(mathematics)
+connections:
+  - series: Matrix Mathematics
+    title: Introduction to matrices
